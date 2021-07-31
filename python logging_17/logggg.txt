@@ -1,0 +1,32 @@
+WARNING:root:warning msg
+ERROR:root:error msg
+CRITICAL:root:critical msg
+
+WARNING:root:warning msg by default
+ERROR:root:error msg
+CRITICAL:root:critical msg
+
+DEBUG:root:debug message
+INFO:root:info message
+WARNING:root:warning msg
+ERROR:root:error msg
+CRITICAL:root:critical msg
+
+INFO:root:A new request came
+INFO:root:Request processing completed.
+
+INFO:root:A new request came
+CRITICAL:root:critical msgERROR:root:division by zero
+Traceback (most recent call last):
+  File "<ipython-input-10-cd06871bb3fa>", line 7, in <module>
+    print(x/y)
+ZeroDivisionError: division by zero
+INFO:root:Request processing completed.
+
+INFO:root:A new request came
+ERROR:root:invalid literal for int() with base 10: 'ten'
+Traceback (most recent call last):
+  File "<ipython-input-11-cd06871bb3fa>", line 6, in <module>
+    y=int(input("Enter second number:"))
+ValueError: invalid literal for int() with base 10: 'ten'
+INFO:root:Request processing completed.
